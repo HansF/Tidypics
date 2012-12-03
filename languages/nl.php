@@ -76,44 +76,44 @@ $nederlands = array(
 			'tidypics:settings:im_path' => "Enter the path to your ImageMagick commands",
 			'tidypics:settings:img_river_view' => "How many entries in activity river for each batch of uploaded images",
 			'tidypics:settings:album_river_view' => "Toon albumcover of een fotoset voor nieuw album",
-			'tidypics:settings:largesize' => "Primary image size",
-			'tidypics:settings:smallsize' => "Album view image size",
-			'tidypics:settings:tinysize' => "Thumbnail afbeeldingsgrootte",
-			'tidypics:settings:sizes:instructs' => 'You may need to change the CSS if you change the default sizes',
-			'tidypics:settings:im_id' => "Image ID",
+			'tidypics:settings:largesize' => "Primair afbeeldingsformaat",
+			'tidypics:settings:smallsize' => "Formaat afbeelding in het album",
+			'tidypics:settings:tinysize' => "Miniatuur afbeeldingsgrootte",
+			'tidypics:settings:sizes:instructs' => 'Je moet misschien de css aanpassen als je deze formaten wijzigt.',
+			'tidypics:settings:im_id' => "Afbeelding ID",
 			'tidypics:settings:heading:img_lib' => "Instellingen afbeeldingsbibliotheek",
 			'tidypics:settings:heading:main' => "Hoofdinstellingen",
-			'tidypics:settings:heading:river' => "Activity Integration Options",
-			'tidypics:settings:heading:sizes' => "Grootte Thumbnail",
+			'tidypics:settings:heading:river' => "Integratieopties met activiteitsstream",
+			'tidypics:settings:heading:sizes' => "Grootte van miniatuur",
 			'tidypics:settings:heading:groups' => "Instellingen groep",
-			'tidypics:option:all' => 'All',
+			'tidypics:option:all' => 'Alles',
 			'tidypics:option:none' => 'Geen',
 			'tidypics:option:cover' => 'Cover',
 			'tidypics:option:set' => 'Set',
 
 		// server analysis
-			'tidypics:server_info' => 'Server Information',
-			'tidypics:server_info:gd_desc' => 'Elgg requires the GD extension to be loaded',
-			'tidypics:server_info:exec_desc' => 'Required for ImageMagick command line',
-			'tidypics:server_info:memory_limit_desc' => 'Change memory_limit to increase',
-			'tidypics:server_info:peak_usage_desc' => 'This is approximately the minimum per page',
-			'tidypics:server_info:upload_max_filesize_desc' => 'Max size of an uploaded image',
-			'tidypics:server_info:post_max_size_desc' => 'Max post size = sum of images + html form',
-			'tidypics:server_info:max_input_time_desc' => 'Time script waits for upload to finish',
-			'tidypics:server_info:max_execution_time_desc' => 'Max time a script will run',
-			'tidypics:server_info:use_only_cookies_desc' => 'Cookie only sessions may affect the Flash uploader',
+			'tidypics:server_info' => 'Server Informatie',
+			'tidypics:server_info:gd_desc' => 'Elgg heft een geladen GD extensie nodig',
+			'tidypics:server_info:exec_desc' => 'Noodzakelijk voor ImageMagick command line',
+			'tidypics:server_info:memory_limit_desc' => 'Wijzig memory_limit om te vermeerderen',
+			'tidypics:server_info:peak_usage_desc' => 'Dit is ongeveerhet minimum per pagina',
+			'tidypics:server_info:upload_max_filesize_desc' => 'Maximum formaat van een opgeladen afbeelding',
+			'tidypics:server_info:post_max_size_desc' => 'Max post size = som van de foto\'s + het formulier',
+			'tidypics:server_info:max_input_time_desc' => 'Tijd dat het script wacht op het einde van de upload',
+			'tidypics:server_info:max_execution_time_desc' => 'Maximum tijd dat het script zal lopen',
+			'tidypics:server_info:use_only_cookies_desc' => 'Sessies met enkel Cookies kan een invloed hebben op de werking van de Flash uploader',
 
-			'tidypics:server_info:php_version' => 'PHP Version',
-			'tidypics:server_info:memory_limit' => 'Memory Available to PHP',
-			'tidypics:server_info:peak_usage' => 'Memory Used to Load This Page',
+			'tidypics:server_info:php_version' => 'PHP Versie',
+			'tidypics:server_info:memory_limit' => 'Geheugen beschikbaar voor PHP',
+			'tidypics:server_info:peak_usage' => 'Geheugen nodig om deze pagina te laden',
 			'tidypics:server_info:upload_max_filesize' => 'Max File Upload Size',
 			'tidypics:server_info:post_max_size' => 'Max Post Size',
 			'tidypics:server_info:max_input_time' => 'Max Input Time',
 			'tidypics:server_info:max_execution_time' => 'Max Execution Time',
 			'tidypics:server_info:use_only_cookies' => 'Cookie only sessions',
 
-			'tidypics:server_config' => 'Server Configuration',
-			'tidypics:server_configuration_doc' => 'Server configuration documentation',
+			'tidypics:server_config' => 'Server Configuratie',
+			'tidypics:server_configuration_doc' => 'Server configuratie	documentatie',
 
 		// ImageMagick test
 			'tidypics:lib_tools:testing' =>
@@ -126,7 +126,7 @@ $nederlands = array(
 	// thumbnail tool
 			'tidypics:thumbnail_tool' => 'Thumbnail Aanmaken',
 			'tidypics:thumbnail_tool_blurb' => 
-	'Op deze pagina kunt u opnieuw minaituren laten genereren voor de afbeldingen waarvoor dit mislukt is bij de upload. 
+	'Op deze pagina kunt u opnieuw miniaturen laten genereren voor de afbeldingen waarvoor dit mislukt is bij de upload. 
 	Dit mislukken kan komen doordat het conversieprogramma niet goed gecinfigureerd is of als er te weinig geheugen beschikbaar is. 
 	Als de gebruikers problemen hebben gehad met het aanmaken van miniaturen en je hebt de configuratie aangpast kan je dus op deze pagina het aanmaken opnieuw proberen. 
 	Vind de unieke identificatie van de foto (het is een getal aan het einde van de url bij het bekijken van
