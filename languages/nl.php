@@ -117,23 +117,24 @@ $nederlands = array(
 
 		// ImageMagick test
 			'tidypics:lib_tools:testing' =>
-	'Tidypics moet de locatie van de ImageMagick executables weten als u het hebt gekozen om te gebruiken bvoor beeldconversies.
-	Uw hosting aanbieder moet in staat zijn u deze gegevens te geven. Je kunt testen of de locatie juist is hieronder. 
+	'Tidypics moet de locatie van de ImageMagick executables weten als u ervoor hebt gekozen om ImageMagick 
+	te gebruiken voor beeldconversies.
+	Uw hostingaanbieder moet in staat zijn u deze gegevens te geven. U kan hieronder testen of de 
+	locatie juist is. 
 	Als de test lukt, zou het versienummer van de geinstalleerde versie zichtbaar moeten zijn.',
 
 	// thumbnail tool
-			'tidypics:thumbnail_tool' => 'Thumbnail Creation',
+			'tidypics:thumbnail_tool' => 'Thumbnail Aanmaken',
 			'tidypics:thumbnail_tool_blurb' => 
-	'This page allows you to create thumbnails for images when the thumbnail creation failed during upload.
-	You may experience problems with thumbnail creation if your image library is not configured properly or
-	if there is not enough memory for the GD library to load and resize an image. If your users have
-	experienced problems with thumbnail creation and you have corrected your configuration, you can try to redo the
-	thumbnails. Find the unique identifier of the photo (it is the number near the end of the url when viewing
-	a photo) and enter it below.',
-			'tidypics:thumbnail_tool:unknown_image' => 'Unable to get original image',
-			'tidypics:thumbnail_tool:invalid_image_info' => 'Error retrieving information about the image',
-			'tidypics:thumbnail_tool:create_failed' => 'Failed to create thumbnails',
-			'tidypics:thumbnail_tool:created' => 'Created thumbnails.',
+	'Op deze pagina kunt u opnieuw minaituren laten genereren voor de afbeldingen waarvoor dit mislukt is bij de upload. 
+	Dit mislukken kan komen doordat het conversieprogramma niet goed gecinfigureerd is of als er te weinig geheugen beschikbaar is. 
+	Als de gebruikers problemen hebben gehad met het aanmaken van miniaturen en je hebt de configuratie aangpast kan je dus op deze pagina het aanmaken opnieuw proberen. 
+	Vind de unieke identificatie van de foto (het is een getal aan het einde van de url bij het bekijken van
+	een foto) en vul hem hieronder in.',
+			'tidypics:thumbnail_tool:unknown_image' => 'Niet in staat priginele foto in te laden',
+			'tidypics:thumbnail_tool:invalid_image_info' => 'Fout bij ophalen informatie over de foto',
+			'tidypics:thumbnail_tool:create_failed' => 'Mislukt om miniaturen aan te maken',
+			'tidypics:thumbnail_tool:created' => 'Miniaturen aangemaakt.',
 
 		//actions
 			'album:create' => "Maak nieuw album",
@@ -177,7 +178,7 @@ $nederlands = array(
 			'image:index' => "%u of %u",
 
 		// tagging
-			'tidypics:taginstruct' => 'Select the area that you want to tag or %s',
+			'tidypics:taginstruct' => 'Selecteer de regio die je wil taggen of %s',
 			'tidypics:finish_tagging' => 'Stop tagging',
 			'tidypics:tagthisphoto' => 'Tag deze foto',
 			'tidypics:actiontag' => 'Tag',
